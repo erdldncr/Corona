@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <nav>
+  <h1>Welcome</h1>
+  </nav>
+  <main class="container">
+    <section class="country-search">
+      <label for="country">Type name of the Country that you wanna search</label>
+      <input type="country" id="inputCountry">
+      <button id="search" >Search</button>
+      <table class="dashboard">
+        <tr>
+          <th>Country Name</th>
+          <th>Total Case</th>
+          <th>Total Deaths</th>
+        </tr>
+        <tr>
+          <td id="countryName">Turkey</td>
+          <td id="totalCase">23342</td>
+          <td id="totalDeaths">adasd</td>
+        </tr>
+      </table>
+    </section>
+
+  </main>
   <script src="./app.js"></script>  
 </body>
 </html>
